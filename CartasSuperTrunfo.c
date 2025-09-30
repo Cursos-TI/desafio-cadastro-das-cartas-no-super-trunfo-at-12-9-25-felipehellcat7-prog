@@ -1,22 +1,30 @@
-#include <stdio.h>
+print("--- Cadastro da Carta 1 ---")
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+# Carta 1
+populacao_carta1 = int(input("Digite a população da Carta 1 (inteiro): "))
+area_carta1 = float(input("Digite a área da Carta 1 (decimal): "))
+pib_carta1 = float(input("Digite o PIB da Carta 1 (decimal): "))
+pontos_turisticos_carta1 = int(input("Digite o número de pontos turísticos da Carta 1 (inteiro): "))
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+print("\n--- Cadastro da Carta 2 ---")
+
+# Carta 2
+populacao_carta2 = int(input("Digite a população da Carta 2 (inteiro): "))
+area_carta2 = float(input("Digite a área da Carta 2 (decimal): "))
+pib_carta2 = float(input("Digite o PIB da Carta 2 (decimal): "))
+pontos_turisticos_carta2 = int(input("Digite o número de pontos turísticos da Carta 2 (inteiro): "))
+
+print("\n--- Dados Cadastrados ---")
+
+print("\n--- Carta 1 ---")
+print(f"População: {populacao_carta1}")
+print(f"Área: {area_carta1}")
+print(f"PIB: {pib_carta1}")
+print(f"Pontos Turísticos: {pontos_turisticos_carta1}")
+
+print("\n--- Carta 2 ---")
+print(f"População: {populacao_carta2}")
+print(f"Área: {area_carta2}")
+print(f"PIB: {pib_carta2}")
+print(f"Pontos Turísticos: {pontos_turisticos_carta2}")
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
-    return 0;
-}
